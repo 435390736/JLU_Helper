@@ -1158,7 +1158,7 @@ def main():
     program = Query_Scores(user_id, pwd)
     program.Login()
     program.Get_Scores()
-    input()
+    a = input()
 
 if __name__ == '__main__':
     main()
